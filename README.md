@@ -1,1 +1,2 @@
-# Batcine
+
+Web development training project
