@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="907bf537-28ce-44b4-98bb-ed416ee07c00" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/asset/Arborescence/Arborescence_Baticne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/agilité/Story-Mapping-realise.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/android-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/android-icon-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/android-icon-36x36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/android-icon-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/android-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/android-icon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/apple-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/apple-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/apple-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/apple-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/apple-icon-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/apple-icon-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/apple-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/apple-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/apple-icon-76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/apple-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/favicon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/ms-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/ms-icon-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/ms-icon-310x310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon/ms-icon-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon2/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon2/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon2/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon2/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon2/code_html.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon2/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon2/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon2/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon2/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon2/mstile-310x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/favicon2/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/font/Kalam/Kalam-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/font/Kalam/Kalam-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/font/Kalam/Kalam-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/font/Kalam/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/actualites/Claude-Lelouch.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/actualites/Les-Cobayes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/carousel/5eme_set.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/carousel/adieu_les_cons.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/carousel/aline.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/carousel/amants.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/carousel/bac_nord.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/carousel/comment_je_suis_devenu_super-heros.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/carousel/gagarine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/carousel/kaamelott.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/carousel/l_origine_du_monde.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/carousel/la_nuee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/carousel/le_discours.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/carousel/les_deux_alfred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/carousel/mandibules.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/carousel/slalom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/carousel/un_triomphe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/films/affiches/antoinettes_dans_les_cevennes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/films/affiches/mon_cousin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/films/affiches/tenet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/films/paysage/antoinettes_dans_les_cevennes_paysage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/films/prochainement/30_jours_max.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/films/prochainement/mourir_peut_attendre.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/films/prochainement/the_singing_club.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/actualite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/avis_critique.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/carousel_left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/carousel_right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/casting.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/comment.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/director.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/eclair_empty.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/eclair_full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/filter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/info.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/like_broken_empty.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/like_broken_full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/like_empty.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/like_full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/login.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/mail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/more.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/movie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/next_page_left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/next_page_right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/position.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/poster.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/return_top.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/icon/video.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/logo/logo_batcine_blanc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/logo/logo_batcine_blanc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/logo/logo_batcine_bleu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/series/affiches/la_flamme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/series/affiches/le_mensonge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/series/affiches/no_mans_land.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/img/series/paysages/la_flamme_paysage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/js/modele_film.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/maquettes/Desktop/Maquette_Desktop.xd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/maquettes/Mobile/Maquette_Mobile.xd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/persona/Persona.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/sql/bdd/batcine.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/sql/mcd/MCD.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/sql/mld/MLD.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/texte/Notes_About_US.odt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kazNJWcQk2OCKtLEbMoNCSZjLd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="907bf537-28ce-44b4-98bb-ed416ee07c00" name="Default Changelist" comment="" />
+      <created>1605953448417</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605953448417</updated>
+      <workItem from="1605953449577" duration="14000" />
+      <workItem from="1606149739922" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
