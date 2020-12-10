@@ -1,14 +1,16 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Fichier HTML -->
 <html lang="fr">
+<!-- Le langage du texte dans le document -->
 
 <head>
     <meta charset="UTF-8">
+    <!-- Universal Character Set Transformation Format 8 bits : répertoire universel de caractères codés : Norme ISO/CEI 10646 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Baptiste Lucmaret">
     <meta name="description" content="Site d'actualités de cinéma, films et séries à l'affiche et à voir prochainement">
-    <meta name="keywords" content="actualité, film, series, cinema">
+    <meta name="keywords" content="Actualités, Films, Séries, Cinema">
     <meta name="robots" content="index, follow">
-    <title>Films</title>
+
     <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
@@ -26,36 +28,43 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Films</title>
 </head>
 
 <body>
-    <header class="container-fluid ">
+
+    <!-- Début HEADER -->
+    <header class="container-fluid p-0">
         <!-- Partie supérieure du header, la navigation et logo -->
         <nav class="container position-relative">
             <ul class="row justify-content-between py-lg-3">
-                <li class="col-lg-2 text-center typohead"><a href="index.html" class="active">Accueil</a></li>
-                <li class="col-lg-2 text-center typohead"><a href="actualites.html">Actualités</a></li>
+                <li class="d-none text-center typohead col-lg-2 d-lg-block"><a href="index.html">Accueil</a></li>
+                <li class="d-none text-center typohead col-lg-2 d-lg-block"><a href="actualites.html">Actualités</a>
+                </li>
                 <li class="cercle">
                     <div id="circletransp"><a href="index.html"><img src="assets/img/logo/logo_batcine_blanc.svg"
                                 alt="Batcine Logo" title="Batcine Logo" class="img-fluid" id="logo"></a>
                     </div>
                 </li>
-                <li class="col-lg-2 text-center typohead menu z_menu"><a href="films.html">Films</a>
+                <li class="d-none text-center typohead menu z_menu col-lg-2 d-lg-block"><a href="films.html"
+                        class="active">Films</a>
                     <ul class="sub my-lg-5">
                         <li class="sub1 px-lg-3 pt-lg-3 pb-lg-1"><a href="film_a_l_affiche.html" class="typolimenu">Film
                                 à l'affiche</a></li>
                         <li class="sub2 pb-lg-3"><a href="prochainement.html" class="typolimenu">Prochainement</a></li>
                     </ul>
                 </li>
-                <li class="col-lg-2 text-center typohead"><a href="series.html">Séries</a></li>
-                <li class="col-lg-1 text-center typohead" id="login"><a href=""><img src="assets/img/icon/login.svg"
+                <li class="d-none text-center typohead col-lg-2 d-lg-block"><a href="series.html">Séries</a></li>
+                <li class="text-center typohead col-lg-1" id="login"><a href=""><img src="assets/img/icon/login.svg"
                             alt="Login" title="Login" class="img-fluid"></a></li>
             </ul>
         </nav>
-        <!-- Partie du carousel -->
+
+        <!-- Début Carousel -->
         <div id="top15filmfrfin2020" class="carousel slide carousel-fade" data-ride="carousel">
             <!-- 15 films fr les plus attendus en fin d'année 2020 -->
             <div class="carousel-inner">
@@ -87,7 +96,8 @@
                 </div>
                 <div class="carousel-item">
                     <!-- Film 7 -->
-                    <img src="assets/img/carousel/kaamelott.jpg" class="d-block w-100" alt="Kaamelott" title="Kaamelott">
+                    <img src="assets/img/carousel/kaamelott.jpg" class="d-block w-100" alt="Kaamelott"
+                        title="Kaamelott">
                 </div>
                 <div class="carousel-item">
                     <!-- Film 8 -->
@@ -136,165 +146,100 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        <!-- Fin Carousel -->
     </header>
-    <!-- MAIN -->
-    <main class="container-fluid position-relative">
+    <!-- Fin HEADER -->
+
+    <!-- Début MAIN -->
+    <main class="container-fluid position-relative m-0">
+
         <!-- FIL D'ARIANNE -->
         <div>
-            <ul>
+            <ul class="mb-0 mb-lg-1">
                 <li class="breadcrumb">
                     <a href="index.html" class="item">Accueil</a>
                     <a href="films.html" class="item">Films</a>
                 </li>
             </ul>
         </div>
+
         <!-- SECTION FILMS À L'AFFICHE -->
-        <section class="container">
-            <h1 class="text-center my-lg-5">Films à l'affiche</h1>
+        <section class="container" id="filmsAffiche">
+            <h1 class="mb-3 text-center mb-lg-5 mt-lg-4 pb-lg-3">Films à l'affiche</h1>
+
             <!-- Ligne 1 -->
-            <div class="row align-items-center justify-content-around">
-                <div class="col-lg-3">
-                    <!-- PREMIER FILM -->
+            <div class="row justify-content-around align-items-center">
+
+                <!-- PREMIER FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/affiches/antoinettes_dans_les_cevennes.jpg"
                             alt="Antoinettes dans les Cévennes" title="Antoinettes dans les Cévennes" class="img-fluid">
-                        <h2 class="mt-lg-3">Antoinette dans les Cévennes</h2>
-                        <h3>De :<span> Caroline Vignal</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">Antoinette dans les Cévennes</h2>
+                        <h3 class="my-0 pt-2">De :<span> Caroline Vignal</span></h3>
                     </a>
                 </div>
-                <div class="col-lg-3">
-                    <!-- DEUXIEME FILM -->
+
+                <!-- DEUXIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/affiches/mon_cousin.jpg" alt="Mon cousin" title="Mon cousin"
                             class="img-fluid">
-                        <h2 class="mt-lg-3">Mon Cousin</h2>
-                        <h3>De :<span> Jan Kounen</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">Mon Cousin</h2>
+                        <h3 class="my-0 pt-2">De :<span> Jan Kounen</span></h3>
                     </a>
                 </div>
-                <div class="col-lg-3">
-                    <!-- TROISIEME FILM -->
+
+                <!-- TROISIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/affiches/tenet.jpg" alt="Tenet" title="Tenet" class="img-fluid">
-                        <h2 class="mt-lg-3">Tenet</h2>
-                        <h3>De :<span> Christopher Nolan</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">Tenet</h2>
+                        <h3 class="my-0 pt-2">De :<span> Christopher Nolan</span></h3>
                     </a>
                 </div>
             </div>
+
             <!-- Ligne 2 -->
-            <div class="row align-items-center justify-content-around my-lg-5">
-                <div class="col-lg-3">
-                    <!-- PREMIER FILM -->
+            <div class="row justify-content-around align-items-center mt-lg-5">
+                <!-- PREMIER FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/affiches/antoinettes_dans_les_cevennes.jpg"
                             alt="Antoinettes dans les Cévennes" title="Antoinettes dans les Cévennes" class="img-fluid">
-                        <h2 class="mt-lg-3">Antoinette dans les Cévennes</h2>
-                        <h3>De :<span> Caroline Vignal</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">Antoinette dans les Cévennes</h2>
+                        <h3 class="my-0 pt-2">De :<span> Caroline Vignal</span></h3>
                     </a>
                 </div>
-                <div class="col-lg-3">
-                    <!-- DEUXIEME FILM -->
+
+                <!-- DEUXIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/affiches/mon_cousin.jpg" alt="Mon cousin" title="Mon cousin"
                             class="img-fluid">
-                        <h2 class="mt-lg-3">Mon Cousin</h2>
-                        <h3>De :<span> Jan Kounen</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">Mon Cousin</h2>
+                        <h3 class="my-0 pt-2">De :<span> Jan Kounen</span></h3>
                     </a>
                 </div>
-                <div class="col-lg-3">
-                    <!-- TROISIEME FILM -->
+
+                <!-- TROISIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/affiches/tenet.jpg" alt="Tenet" title="Tenet" class="img-fluid">
-                        <h2 class="mt-lg-3">Tenet</h2>
-                        <h3>De :<span> Christopher Nolan</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">Tenet</h2>
+                        <h3 class="my-0 pt-2">De :<span> Christopher Nolan</span></h3>
                     </a>
                 </div>
             </div>
-            <!-- BOUTON VOIR PLUS -->
-            <div class="row justify-content-end my-lg-5">
-                <div class="col-lg-2 my-lg-3" id="buttonmore">
+
+            <!-- BOUTON VOIR PLUS SUR LES FILMS À L'AFFICHE -->
+            <div class="row justify-content-end mt-lg-5">
+                <div class="col-5 py-2 col-lg-2 my-lg-3 py-lg-0 buttonmore">
                     <a href="film_a_l_affiche.html">
-                        <div class="row align-items-center justify-content-between">
-                            <span class="col-lg-3 text-center ml-lg-3 my-lg-2">Voir</span>
-                            <span class="col-lg-3 text-center ml-lg-0 p-0 my-lg-2"> plus</span>
-                            <div class="col-lg-4 my-lg-2">
-                                <img src="assets/img/icon/more.svg" alt="Voir plus" title="Voir Plus" class="img-fluid">
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- SECTION FILMS PROCHAINEMENT -->
-        <section class="container">
-            <h1 class="text-center my-lg-5">Films Prochainement</h1>
-            <!-- Ligne 1 -->
-            <div class="row align-items-center justify-content-around">
-                <div class="col-lg-3">
-                    <!-- PREMIER FILM -->
-                    <a href="modele_film.html">
-                        <img src="assets/img/films/prochainement/mourir_peut_attendre.jpg" alt="Mourir peut attendre"
-                            title="Mourir peut attendre" class="img-fluid">
-                        <h2 class="mt-lg-3">Mourir peut attendre</h2>
-                        <h3>De :<span> Cary Joji Fukunaga</span></h3>
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <!-- DEUXIEME FILM -->
-                    <a href="modele_film.html">
-                        <img src="assets/img/films/prochainement/30_jours_max.jpg" alt="30 jours max"
-                            title="30 jours max" class="img-fluid">
-                        <h2 class="mt-lg-3">30 jours max</h2>
-                        <h3>De :<span> Tarek Boudali</span></h3>
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <!-- TROISIEME FILM -->
-                    <a href="modele_film.html">
-                        <img src="assets/img/films/prochainement/the_singing_club.jpg" alt="The singing club"
-                            title="The singing club" class="img-fluid">
-                        <h2 class="mt-lg-3">The Singing Club</h2>
-                        <h3>De :<span> Peter Cattaneo</span></h3>
-                    </a>
-                </div>
-            </div>
-            <!-- Ligne 2 -->
-            <div class="row align-items-center justify-content-around my-lg-5">
-                <div class="col-lg-3">
-                    <!-- PREMIER FILM -->
-                    <a href="modele_film.html">
-                        <img src="assets/img/films/prochainement/mourir_peut_attendre.jpg" alt="Mourir peut attendre"
-                            title="Mourir peut attendre" class="img-fluid">
-                        <h2 class="mt-lg-3">Mourir peut attendre</h2>
-                        <h3>De :<span> Cary Joji Fukunaga</span></h3>
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <!-- DEUXIEME FILM -->
-                    <a href="modele_film.html">
-                        <img src="assets/img/films/prochainement/30_jours_max.jpg" alt="30 jours max"
-                            title="30 jours max" class="img-fluid">
-                        <h2 class="mt-lg-3">30 jours max</h2>
-                        <h3>De :<span> Tarek Boudali</span></h3>
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <!-- TROISIEME FILM -->
-                    <a href="modele_film.html">
-                        <img src="assets/img/films/prochainement/the_singing_club.jpg" alt="The singing club"
-                            title="The singing club" class="img-fluid">
-                        <h2 class="mt-lg-3">The Singing Club</h2>
-                        <h3>De :<span> Peter Cattaneo</span></h3>
-                    </a>
-                </div>
-            </div>
-            <!-- BOUTON VOIR PLUS -->
-            <div class="row justify-content-end my-lg-5">
-                <div class="col-lg-2 my-lg-3" id="buttonmore">
-                    <a href="prochainement.html">
-                        <div class="row align-items-center justify-content-between">
-                            <span class="col-lg-3 text-center ml-lg-3 my-lg-2">Voir</span>
-                            <span class="col-lg-3 text-center ml-lg-0 p-0 my-lg-2"> plus</span>
-                            <div class="col-lg-4 my-lg-2">
+                        <div class="row justify-content-between align-items-center">
+                            <span class="col-3 ml-4 px-0 text-center col-lg-3 ml-lg-3 my-lg-2">Voir</span>
+                            <span class="col-3 px-0 text-center col-lg-3 ml-lg-0 my-lg-2"> plus</span>
+                            <div class="col-4 col-lg-4 my-lg-2">
                                 <!-- ICON VOIR PLUS -->
                                 <img src="assets/img/icon/more.svg" alt="Voir plus" title="Voir Plus" class="img-fluid">
                             </div>
@@ -303,24 +248,151 @@
                 </div>
             </div>
         </section>
+
+        <!-- SECTION FILMS PROCHAINEMENT -->
+        <section class="container" id="filmsProchainement">
+            <h1 class="my-4 py-4 text-center my-lg-5 py-lg-0">Films Prochainement</h1>
+
+            <!-- Ligne 1 -->
+            <div class="row justify-content-around align-items-center">
+                <!-- PREMIER FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
+                    <a href="modele_film.html">
+                        <img src="assets/img/films/prochainement/mourir_peut_attendre.jpg" alt="Mourir peut attendre"
+                            title="Mourir peut attendre" class="img-fluid">
+                        <h2 class="my-0 pt-3 mt-lg-3">Mourir peut attendre</h2>
+                        <h3 class="my-0 pt-2">De :<span> Cary Joji Fukunaga</span></h3>
+                    </a>
+                </div>
+
+                <!-- DEUXIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
+                    <a href="modele_film.html">
+                        <img src="assets/img/films/prochainement/30_jours_max.jpg" alt="30 jours max"
+                            title="30 jours max" class="img-fluid">
+                        <h2 class="my-0 pt-3 mt-lg-3">30 jours max</h2>
+                        <h3 class="my-0 pt-2">De :<span> Tarek Boudali</span></h3>
+                    </a>
+                </div>
+
+                <!-- TROISIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
+                    <a href="modele_film.html">
+                        <img src="assets/img/films/prochainement/the_singing_club.jpg" alt="The singing club"
+                            title="The singing club" class="img-fluid">
+                        <h2 class="my-0 pt-3 mt-lg-3">The Singing Club</h2>
+                        <h3 class="my-0 pt-2">De :<span> Peter Cattaneo</span></h3>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Ligne 2 -->
+            <div class="row justify-content-around align-items-center mt-lg-5">
+                <!-- PREMIER FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
+                    <a href="modele_film.html">
+                        <img src="assets/img/films/prochainement/mourir_peut_attendre.jpg" alt="Mourir peut attendre"
+                            title="Mourir peut attendre" class="img-fluid">
+                        <h2 class="my-0 pt-3 mt-lg-3">Mourir peut attendre</h2>
+                        <h3 class="my-0 pt-2">De :<span> Cary Joji Fukunaga</span></h3>
+                    </a>
+                </div>
+
+                <!-- DEUXIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
+                    <a href="modele_film.html">
+                        <img src="assets/img/films/prochainement/30_jours_max.jpg" alt="30 jours max"
+                            title="30 jours max" class="img-fluid">
+                        <h2 class="my-0 pt-3 mt-lg-3">30 jours max</h2>
+                        <h3 class="my-0 pt-2">De :<span> Tarek Boudali</span></h3>
+                    </a>
+                </div>
+
+                <!-- TROISIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
+                    <a href="modele_film.html">
+                        <img src="assets/img/films/prochainement/the_singing_club.jpg" alt="The singing club"
+                            title="The singing club" class="img-fluid">
+                        <h2 class="my-0 pt-3 mt-lg-3">The Singing Club</h2>
+                        <h3 class="my-0 pt-2">De :<span> Peter Cattaneo</span></h3>
+                    </a>
+                </div>
+            </div>
+
+            <!-- BOUTON VOIR PLUS SUR LES FILMS PROCHAINEMENT -->
+            <div class="row justify-content-end mb-5 my-lg-0 py-lg-5">
+                <div class="col-5 py-2 col-lg-2 my-lg-3 py-lg-0 buttonmore">
+                    <a href="prochainement.html">
+                        <div class="row align-items-center justify-content-between">
+                            <span class="col-3 ml-4 px-0 text-center col-lg-3 ml-lg-3 my-lg-2">Voir</span>
+                            <span class="col-3 px-0 text-center col-lg-3 ml-lg-0 my-lg-2"> plus</span>
+                            <div class="col-4 col-lg-4 my-lg-2">
+                                <!-- ICON VOIR PLUS -->
+                                <img src="assets/img/icon/more.svg" alt="Voir plus" title="Voir Plus" class="img-fluid">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- BOUTON RETURN TOP -->
         <a href="#">
-            <div class="return-top_position position-fixed">
-                <img src="assets/img/icon/return_top.svg" alt="" class="return_top_icon">
+            <div class="returnTopPosition returnTopLightBlue d-none d-lg-block">
+                <img src="assets/img/icon/return_top_light_blue.svg" alt="Return Top" class="resp">
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="mb-5 d-block returnTopPosition returnTopDarkBlue d-lg-none">
+                <img src="assets/img/icon/return_top_dark_blue.svg" alt="Return Top" class="resp">
             </div>
         </a>
     </main>
-    <footer class="container-fluid">
-        <nav class="container pt-lg-5">
-            <ul class="row justify-content-around pt-lg-3">
-                <li class="col-lg-1 text-center py-lg-1"><a href="">Contact</a></li>
-                <li class="col-lg-2 text-center py-lg-1"><a href="">Qui sommes-nous</a></li>
-                <li class="col-lg-1 text-center py-lg-1"><a href="">CGU</a></li>
-                <li class="col-lg-2 text-center py-lg-1"><a href="">Politique cookies</a></li>
-                <li class="col-lg-2 text-center py-lg-1"><a href="">Préférences cookies</a></li>
-                <li class="col-lg-2 text-center py-lg-1"><a href="">Données Personnelles</a></li>
+    <!-- Fin MAIN -->
+
+    <!-- Début FOOTER -->
+
+    <footer>
+
+        <nav class="navbarStickyMenu">
+            <ul class="navList">
+                <li><a href="index.html">
+                        <div class="navIcons"><img src="assets/img/icon/home.svg" alt="home" class="resp"></div>Accueil
+                    </a></li>
+                <li><a href="actualites.html">
+                        <div class="navIcons"><img src="assets/img/icon/actualite.svg" alt="actualite" class="resp">
+                        </div>Actualites
+                    </a></li>
+                <li><a href="films.html" class="active">
+                        <div class="navIcons" id="navIcons3"><img src="assets/img/icon/poster.svg" alt="poster"
+                                class="resp"></div>
+                        Films
+                    </a></li>
+                <li><a href="series.html">
+                        <div class="navIcons"><img src="assets/img/icon/movie.svg" alt="movie" class="resp"></div>Series
+                    </a></li>
+                <li><a href="">
+                        <div class="navIcons"><img src="assets/img/icon/more_litght_blue.svg" alt="more" class="resp">
+                        </div>Plus
+                    </a></li>
             </ul>
         </nav>
+
+        <div class="container-fluid" id="footer">
+            <nav class="container pt-lg-5">
+                <ul class="row justify-content-around pt-lg-3">
+                    <li class="text-center col-lg-1 py-lg-1"><a href="">Contact</a></li>
+                    <li class="text-center col-lg-2 py-lg-1"><a href="">Qui sommes-nous</a></li>
+                    <li class="text-center col-lg-1 py-lg-1"><a href="">CGU</a></li>
+                    <li class="text-center col-lg-2 py-lg-1"><a href="">Politique cookies</a></li>
+                    <li class="text-center col-lg-2 py-lg-1"><a href="">Préférences cookies</a></li>
+                    <li class="text-center col-lg-2 py-lg-1"><a href="">Données Personnelles</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
+    <!-- Fin FOOTER -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -332,6 +404,7 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/modele_film.js"></script>
+
 </body>
 
 </html>

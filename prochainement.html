@@ -1,14 +1,16 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Fichier HTML -->
 <html lang="fr">
+<!-- Le langage du texte dans le document -->
 
 <head>
     <meta charset="UTF-8">
+    <!-- Universal Character Set Transformation Format 8 bits : répertoire universel de caractères codés : Norme ISO/CEI 10646 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Baptiste Lucmaret">
     <meta name="description" content="Site d'actualités de cinéma, films et séries à l'affiche et à voir prochainement">
-    <meta name="keywords" content="actualité, film, series, cinema">
+    <meta name="keywords" content="Actualités, Films, Séries, Cinema">
     <meta name="robots" content="index, follow">
-    <title>Prochainement</title>
+
     <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
@@ -26,36 +28,44 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Prochainement</title>
 </head>
 
 <body>
-    <header class="container-fluid ">
+
+    <!-- Début HEADER -->
+    <header class="container-fluid p-0">
         <!-- Partie supérieure du header, la navigation et logo -->
         <nav class="container position-relative">
             <ul class="row justify-content-between py-lg-3">
-                <li class="col-lg-2 text-center typohead"><a href="index.html" class="active">Accueil</a></li>
-                <li class="col-lg-2 text-center typohead"><a href="actualites.html">Actualités</a></li>
+                <li class="d-none text-center typohead col-lg-2 d-lg-block"><a href="index.html">Accueil</a></li>
+                <li class="d-none text-center typohead col-lg-2 d-lg-block"><a href="actualites.html">Actualités</a>
+                </li>
                 <li class="cercle">
                     <div id="circletransp"><a href="index.html"><img src="assets/img/logo/logo_batcine_blanc.svg"
                                 alt="Batcine Logo" title="Batcine Logo" class="img-fluid" id="logo"></a>
                     </div>
                 </li>
-                <li class="col-lg-2 text-center typohead menu z_menu"><a href="films.html">Films</a>
+                <li class="d-none text-center typohead menu z_menu col-lg-2 d-lg-block"><a href="films.html"
+                        class="active">Films</a>
                     <ul class="sub my-lg-5">
                         <li class="sub1 px-lg-3 pt-lg-3 pb-lg-1"><a href="film_a_l_affiche.html" class="typolimenu">Film
                                 à l'affiche</a></li>
-                        <li class="sub2 pb-lg-3"><a href="prochainement.html" class="typolimenu">Prochainement</a></li>
+                        <li class="sub2 pb-lg-3"><a href="prochainement.html"
+                                class="typolimenu active">Prochainement</a></li>
                     </ul>
                 </li>
-                <li class="col-lg-2 text-center typohead"><a href="series.html">Séries</a></li>
-                <li class="col-lg-1 text-center typohead" id="login"><a href=""><img src="assets/img/icon/login.svg"
+                <li class="d-none text-center typohead col-lg-2 d-lg-block"><a href="series.html">Séries</a></li>
+                <li class="text-center typohead col-lg-1" id="login"><a href=""><img src="assets/img/icon/login.svg"
                             alt="Login" title="Login" class="img-fluid"></a></li>
             </ul>
         </nav>
-        <!-- Partie du carousel -->
+
+        <!-- Début Carousel -->
         <div id="top15filmfrfin2020" class="carousel slide carousel-fade" data-ride="carousel">
             <!-- 15 films fr les plus attendus en fin d'année 2020 -->
             <div class="carousel-inner">
@@ -87,7 +97,8 @@
                 </div>
                 <div class="carousel-item">
                     <!-- Film 7 -->
-                    <img src="assets/img/carousel/kaamelott.jpg" class="d-block w-100" alt="Kaamelott" title="Kaamelott">
+                    <img src="assets/img/carousel/kaamelott.jpg" class="d-block w-100" alt="Kaamelott"
+                        title="Kaamelott">
                 </div>
                 <div class="carousel-item">
                     <!-- Film 8 -->
@@ -136,12 +147,16 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        <!-- Fin Carousel -->
     </header>
-    <!-- MAIN -->
-    <main class="container-fluid position-relative">
+    <!-- Fin HEADER -->
+
+    <!-- Début MAIN -->
+    <main class="container-fluid position-relative m-0">
+
         <!-- FIL D'ARIANNE -->
         <div>
-            <ul>
+            <ul class="mb-0 mb-lg-1">
                 <li class="breadcrumb">
                     <a href="index.html" class="item">Accueil</a>
                     <a href="films.html" class="item">Films</a>
@@ -149,189 +164,251 @@
                 </li>
             </ul>
         </div>
-        <!-- SECTION FILMS À L'AFFICHE -->
-        <section class="container">
-            <h1 class="text-center my-lg-5">Films Prochainement</h1>
+
+        <!-- SECTION FILMS PROCHAINEMENT -->
+        <section class="container" id="filmsProchainement">
+            <h1 class="mb-3 text-center mb-lg-5 mt-lg-4 pb-lg-3">Films Prochainement</h1>
+
             <!-- Ligne 1 -->
-            <div class="row align-items-center justify-content-around">
-                <div class="col-lg-3">
-                    <!-- PREMIER FILM -->
+            <div class="row justify-content-around align-items-center">
+
+                <!-- PREMIER FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/prochainement/mourir_peut_attendre.jpg" alt="Mourir peut attendre"
                             title="Mourir peut attendre" class="img-fluid">
-                        <h2 class="mt-lg-3">Mourir peut attendre</h2>
-                        <h3>De :<span> Cary Joji Fukunaga</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">Mourir peut attendre</h2>
+                        <h3 class="my-0 pt-2">De :<span> Cary Joji Fukunaga</span></h3>
                     </a>
                 </div>
-                <div class="col-lg-3">
-                    <!-- DEUXIEME FILM -->
+
+                <!-- DEUXIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/prochainement/30_jours_max.jpg" alt="30 jours max"
                             title="30 jours max" class="img-fluid">
-                        <h2 class="mt-lg-3">30 jours max</h2>
-                        <h3>De :<span> Tarek Boudali</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">30 jours max</h2>
+                        <h3 class="my-0 pt-2">De :<span> Tarek Boudali</span></h3>
                     </a>
                 </div>
-                <div class="col-lg-3">
-                    <!-- TROISIEME FILM -->
+
+                <!-- TROISIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/prochainement/the_singing_club.jpg" alt="The singing club"
                             title="The singing club" class="img-fluid">
-                        <h2 class="mt-lg-3">The Singing Club</h2>
-                        <h3>De :<span> Peter Cattaneo</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">The Singing Club</h2>
+                        <h3 class="my-0 pt-2">De :<span> Peter Cattaneo</span></h3>
                     </a>
                 </div>
             </div>
+
             <!-- Ligne 2 -->
-            <div class="row align-items-center justify-content-around mt-lg-5">
-                <div class="col-lg-3">
-                    <!-- PREMIER FILM -->
+            <div class="row justify-content-around align-items-center mt-lg-5">
+
+                <!-- PREMIER FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/prochainement/mourir_peut_attendre.jpg" alt="Mourir peut attendre"
                             title="Mourir peut attendre" class="img-fluid">
-                        <h2 class="mt-lg-3">Mourir peut attendre</h2>
-                        <h3>De :<span> Cary Joji Fukunaga</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">Mourir peut attendre</h2>
+                        <h3 class="my-0 pt-2">De :<span> Cary Joji Fukunaga</span></h3>
                     </a>
                 </div>
-                <div class="col-lg-3">
-                    <!-- DEUXIEME FILM -->
+
+                <!-- DEUXIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/prochainement/30_jours_max.jpg" alt="30 jours max"
                             title="30 jours max" class="img-fluid">
-                        <h2 class="mt-lg-3">30 jours max</h2>
-                        <h3>De :<span> Tarek Boudali</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">30 jours max</h2>
+                        <h3 class="my-0 pt-2">De :<span> Tarek Boudali</span></h3>
                     </a>
                 </div>
-                <div class="col-lg-3">
-                    <!-- TROISIEME FILM -->
+
+                <!-- TROISIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/prochainement/the_singing_club.jpg" alt="The singing club"
                             title="The singing club" class="img-fluid">
-                        <h2 class="mt-lg-3">The Singing Club</h2>
-                        <h3>De :<span> Peter Cattaneo</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">The Singing Club</h2>
+                        <h3 class="my-0 pt-2">De :<span> Peter Cattaneo</span></h3>
                     </a>
                 </div>
             </div>
+
             <!-- Ligne 3 -->
-            <div class="row align-items-center justify-content-around mt-lg-5">
-                <div class="col-lg-3">
-                    <!-- PREMIER FILM -->
+            <div class="row justify-content-around align-items-center mt-lg-5">
+
+                <!-- PREMIER FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/prochainement/mourir_peut_attendre.jpg" alt="Mourir peut attendre"
                             title="Mourir peut attendre" class="img-fluid">
-                        <h2 class="mt-lg-3">Mourir peut attendre</h2>
-                        <h3>De :<span> Cary Joji Fukunaga</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">Mourir peut attendre</h2>
+                        <h3 class="my-0 pt-2">De :<span> Cary Joji Fukunaga</span></h3>
                     </a>
                 </div>
-                <div class="col-lg-3">
-                    <!-- DEUXIEME FILM -->
+
+                <!-- DEUXIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/prochainement/30_jours_max.jpg" alt="30 jours max"
                             title="30 jours max" class="img-fluid">
-                        <h2 class="mt-lg-3">30 jours max</h2>
-                        <h3>De :<span> Tarek Boudali</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">30 jours max</h2>
+                        <h3 class="my-0 pt-2">De :<span> Tarek Boudali</span></h3>
                     </a>
                 </div>
-                <div class="col-lg-3">
-                    <!-- TROISIEME FILM -->
+
+                <!-- TROISIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/prochainement/the_singing_club.jpg" alt="The singing club"
                             title="The singing club" class="img-fluid">
-                        <h2 class="mt-lg-3">The Singing Club</h2>
-                        <h3>De :<span> Peter Cattaneo</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">The Singing Club</h2>
+                        <h3 class="my-0 pt-2">De :<span> Peter Cattaneo</span></h3>
                     </a>
                 </div>
             </div>
+
             <!-- Ligne 4 -->
-            <div class="row align-items-center justify-content-around mt-lg-5">
-                <div class="col-lg-3">
-                    <!-- PREMIER FILM -->
+            <div class="row justify-content-around align-items-center mt-lg-5">
+
+                <!-- PREMIER FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/prochainement/mourir_peut_attendre.jpg" alt="Mourir peut attendre"
                             title="Mourir peut attendre" class="img-fluid">
-                        <h2 class="mt-lg-3">Mourir peut attendre</h2>
-                        <h3>De :<span> Cary Joji Fukunaga</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">Mourir peut attendre</h2>
+                        <h3 class="my-0 pt-2">De :<span> Cary Joji Fukunaga</span></h3>
                     </a>
                 </div>
-                <div class="col-lg-3">
-                    <!-- DEUXIEME FILM -->
+
+                <!-- DEUXIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/prochainement/30_jours_max.jpg" alt="30 jours max"
                             title="30 jours max" class="img-fluid">
-                        <h2 class="mt-lg-3">30 jours max</h2>
-                        <h3>De :<span> Tarek Boudali</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">30 jours max</h2>
+                        <h3 class="my-0 pt-2">De :<span> Tarek Boudali</span></h3>
                     </a>
                 </div>
-                <div class="col-lg-3">
-                    <!-- TROISIEME FILM -->
+
+                <!-- TROISIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/prochainement/the_singing_club.jpg" alt="The singing club"
                             title="The singing club" class="img-fluid">
-                        <h2 class="mt-lg-3">The Singing Club</h2>
-                        <h3>De :<span> Peter Cattaneo</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">The Singing Club</h2>
+                        <h3 class="my-0 pt-2">De :<span> Peter Cattaneo</span></h3>
                     </a>
                 </div>
             </div>
+
             <!-- Ligne 5 -->
-            <div class="row align-items-center justify-content-around mt-lg-5">
-                <div class="col-lg-3">
-                    <!-- PREMIER FILM -->
+            <div class="row justify-content-around align-items-center mt-lg-5">
+
+                <!-- PREMIER FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/prochainement/mourir_peut_attendre.jpg" alt="Mourir peut attendre"
                             title="Mourir peut attendre" class="img-fluid">
-                        <h2 class="mt-lg-3">Mourir peut attendre</h2>
-                        <h3>De :<span> Cary Joji Fukunaga</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">Mourir peut attendre</h2>
+                        <h3 class="my-0 pt-2">De :<span> Cary Joji Fukunaga</span></h3>
                     </a>
                 </div>
-                <div class="col-lg-3">
-                    <!-- DEUXIEME FILM -->
+
+                <!-- DEUXIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/prochainement/30_jours_max.jpg" alt="30 jours max"
                             title="30 jours max" class="img-fluid">
-                        <h2 class="mt-lg-3">30 jours max</h2>
-                        <h3>De :<span> Tarek Boudali</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">30 jours max</h2>
+                        <h3 class="my-0 pt-2">De :<span> Tarek Boudali</span></h3>
                     </a>
                 </div>
-                <div class="col-lg-3">
-                    <!-- TROISIEME FILM -->
+
+                <!-- TROISIEME FILM -->
+                <div class="col-8 mb-5 col-lg-3 mb-lg-0">
                     <a href="modele_film.html">
                         <img src="assets/img/films/prochainement/the_singing_club.jpg" alt="The singing club"
                             title="The singing club" class="img-fluid">
-                        <h2 class="mt-lg-3">The Singing Club</h2>
-                        <h3>De :<span> Peter Cattaneo</span></h3>
+                        <h2 class="my-0 pt-3 mt-lg-3">The Singing Club</h2>
+                        <h3 class="my-0 pt-2">De :<span> Peter Cattaneo</span></h3>
                     </a>
                 </div>
             </div>
+
             <!-- BOUTON NEXT PAGE -->
-            <div class="row text-center justify-content-center align-items-center my-lg-5">
-                <div class="col-lg-2 py-lg-1" id="buttonnext_page">
-                    <span class="text-center TailleSpanPage ">Page 1</span>
+            <div class="row mb-5 pb-5 text-center justify-content-center align-items-center my-lg-5 pb-lg-0">
+                <div class="col-4 col-lg-2 py-lg-1" id="buttonnext_page">
+                    <span class="text-center TailleSpanPage">Page 1</span>
                 </div>
-                <div class="col-lg-1">
+                <div class="col-3 col-lg-1">
                     <!-- ICON NEXT PAGE -->
                     <img src="assets/img/icon/next_page_right.svg" alt="Page 1" title="Page 1" class="img-fluid"
                         id="next_page">
                 </div>
             </div>
         </section>
-        <a href="prochainement.html">
-            <div class="return-top_position position-fixed">
-                <img src="assets/img/icon/return_top.svg" alt="" class="return_top_icon">
+
+        <!-- BOUTON RETURN TOP -->
+        <a href="#">
+            <div class="returnTopPosition returnTopLightBlue d-none d-lg-block">
+                <img src="assets/img/icon/return_top_light_blue.svg" alt="Return Top" class="resp">
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="mb-5 d-block returnTopPosition returnTopDarkBlue d-lg-none">
+                <img src="assets/img/icon/return_top_dark_blue.svg" alt="Return Top" class="resp">
             </div>
         </a>
     </main>
-    <footer class="container-fluid">
-        <nav class="container pt-lg-5">
-            <ul class="row justify-content-around pt-lg-3">
-                <li class="col-lg-1 text-center py-lg-1"><a href="">Contact</a></li>
-                <li class="col-lg-2 text-center py-lg-1"><a href="">Qui sommes-nous</a></li>
-                <li class="col-lg-1 text-center py-lg-1"><a href="">CGU</a></li>
-                <li class="col-lg-2 text-center py-lg-1"><a href="">Politique cookies</a></li>
-                <li class="col-lg-2 text-center py-lg-1"><a href="">Préférences cookies</a></li>
-                <li class="col-lg-2 text-center py-lg-1"><a href="">Données Personnelles</a></li>
+    <!-- Fin MAIN -->
+
+    <!-- Début FOOTER -->
+
+    <footer>
+
+        <nav class="navbarStickyMenu">
+            <ul class="navList">
+                <li><a href="index.html">
+                        <div class="navIcons"><img src="assets/img/icon/home.svg" alt="home" class="resp"></div>Accueil
+                    </a></li>
+                <li><a href="actualites.html">
+                        <div class="navIcons"><img src="assets/img/icon/actualite.svg" alt="actualite" class="resp">
+                        </div>Actualites
+                    </a></li>
+                <li><a href="films.html" class="active">
+                        <div class="navIcons" id="navIcons3"><img src="assets/img/icon/poster.svg" alt="poster"
+                                class="resp"></div>
+                        Films
+                    </a></li>
+                <li><a href="series.html">
+                        <div class="navIcons"><img src="assets/img/icon/movie.svg" alt="movie" class="resp"></div>Series
+                    </a></li>
+                <li><a href="">
+                        <div class="navIcons"><img src="assets/img/icon/more_litght_blue.svg" alt="more" class="resp">
+                        </div>Plus
+                    </a></li>
             </ul>
         </nav>
+
+        <div class="container-fluid" id="footer">
+            <nav class="container pt-lg-5">
+                <ul class="row justify-content-around pt-lg-3">
+                    <li class="text-center col-lg-1 py-lg-1"><a href="">Contact</a></li>
+                    <li class="text-center col-lg-2 py-lg-1"><a href="">Qui sommes-nous</a></li>
+                    <li class="text-center col-lg-1 py-lg-1"><a href="">CGU</a></li>
+                    <li class="text-center col-lg-2 py-lg-1"><a href="">Politique cookies</a></li>
+                    <li class="text-center col-lg-2 py-lg-1"><a href="">Préférences cookies</a></li>
+                    <li class="text-center col-lg-2 py-lg-1"><a href="">Données Personnelles</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
+    <!-- Fin FOOTER -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -343,6 +420,7 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/modele_film.js"></script>
+
 </body>
 
 </html>
